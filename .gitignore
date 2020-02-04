@@ -1,0 +1,9 @@
+/.idea/
+/docs/
+/dist/
+/node_modules/
+
+/calendar.ics
+
+/*.tgz
+*.log
