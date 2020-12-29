@@ -56,6 +56,66 @@ const DATES = {
             },
         },
     },
+    2021: {
+        allowed: {
+            1: {
+                31: true,
+            },
+            3: {
+                28: true,
+            },
+            4: {
+                25: true,
+            },
+            6: {
+                27: true,
+            },
+            8: {
+                29: true,
+            },
+            12: {
+                12: true,
+                19: true,
+            },
+        },
+        disallowed: {
+            1: {
+                1: true,
+                6: true,
+            },
+            4: {
+                4: true,
+                5: true,
+            },
+            5: {
+                1: true,
+                3: true,
+                23: true,
+            },
+            6: {
+                3: true,
+            },
+            8: {
+                15: true,
+            },
+            11: {
+                1: true,
+                11: true,
+            },
+            12: {
+                25: true,
+                26: true,
+            },
+        },
+        short: {
+            4: {
+                3: true,
+            },
+            12: {
+                24: true,
+            },
+        },
+    },
 };
 
 export default DATES;
