@@ -70,7 +70,8 @@ const generateEvents = (YEAR) => { // eslint-disable-line max-lines-per-function
         }
 
         dayLoop++;
-        cont = dt.getFullYear() === YEAR;
+        const dtNext = new Date(Date.UTC(YEAR, 0, dayLoop));
+        cont = dtNext.getFullYear() === YEAR;
     }
 
     return events;
