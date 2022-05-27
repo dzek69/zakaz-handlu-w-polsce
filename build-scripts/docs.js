@@ -6,6 +6,9 @@ const { prepareCopyList } = require("./docs/utils");
     try {
         const tasks = [
             remove("docs"),
+            /* TODO: JSFIX could not patch the breaking change:
+            Creating a directory with fs-extra no longer returns the path 
+            Suggested fix: The returned promise no longer includes the path of the new directory */
             ensureDir("tutorials"),
         ];
 
