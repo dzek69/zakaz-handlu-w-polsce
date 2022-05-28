@@ -42,7 +42,7 @@
     "version": "1.9.0"
   },
   "dependencies": {
-    "fs-extra": "^8.1.0",
+    "fs-extra": "^9.0.0",
     "ics": "^2.18.0"
   }
 }
