@@ -1,10 +1,13 @@
 All notable changes to this project will be documented in this file.
 
-The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
+The format is based on [EZEZ Changelog](https://ezez.dev/changelog/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-## [UNRELEASED]
-(nothing yet)
+## [1.2.0] - 2024-02-12
+### Added
+- 2024
+### Fixed
+- cleaned up unused dependencies and upgraded lockfile to fix audit warnings
 
 ## [1.1.1] - 2020-12-29
 ### Fixed
